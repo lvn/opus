@@ -1,0 +1,605 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"upl",
+				"upload_header_large"
+			],
+			[
+				"keywo",
+				"keywords_string"
+			],
+			[
+				"ke",
+				"valid_keywords_string"
+			],
+			[
+				"event_timezo",
+				"event_timezone_select"
+			],
+			[
+				"registr",
+				"registration_flow_id"
+			],
+			[
+				"upd",
+				"updateTimezoneDisabled"
+			],
+			[
+				"disb",
+				"disabled"
+			],
+			[
+				"invalid",
+				"invalidChars"
+			],
+			[
+				"inval",
+				"invalidChars"
+			],
+			[
+				"inva",
+				"invalidCharacters"
+			],
+			[
+				"ev",
+				"EventMobiService"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"update",
+				"update_all"
+			],
+			[
+				"gec",
+				"geckoboard_url"
+			],
+			[
+				"rend",
+				"render_path"
+			],
+			[
+				"upda",
+				"update_all"
+			],
+			[
+				"grap",
+				"graphite_targets"
+			],
+			[
+				"get",
+				"get_last_val"
+			],
+			[
+				"graph",
+				"graphite_data"
+			],
+			[
+				"up",
+				"update_calls_missed_tody"
+			],
+			[
+				"th",
+				"threading"
+			],
+			[
+				"execute",
+				"execute_every"
+			],
+			[
+				"ge",
+				"geckoboard_post_data"
+			],
+			[
+				"geck",
+				"geckoboard_post_data"
+			],
+			[
+				"g",
+				"geckoboard_conn"
+			],
+			[
+				"widget",
+				"widget_content"
+			],
+			[
+				"wid",
+				"widget_content"
+			],
+			[
+				"pret",
+				"prettify_number_widget"
+			],
+			[
+				"pre",
+				"prettify_number_widget"
+			],
+			[
+				"gra",
+				"graphite_target"
+			],
+			[
+				"grahi",
+				"graphite_conn_headers"
+			],
+			[
+				"widg",
+				"widget_key"
+			],
+			[
+				"graphi",
+				"graphite_target"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/elvinyung/Documents/other stuff/opus"
+	],
+	"file_history":
+	[
+		"/Users/elvinyung/Documents/other stuff/railstest0/db/migrate/20141115025847_create_posts.rb",
+		"/Users/elvinyung/Documents/other stuff/espresso/espress.sublime-project",
+		"/Users/elvinyung/Documents/other stuff/espress/endpoints/cafe/model.js",
+		"/Users/elvinyung/Documents/other stuff/espress/endpoints/cafes/cafes.model.js",
+		"/Users/elvinyung/Documents/other stuff/espress/endpoints/cafes/cafes.js",
+		"/Users/elvinyung/Documents/other stuff/espress/readme.md",
+		"/Users/elvinyung/Documents/other stuff/espress/endpoints/cafe/cafe.mode.js",
+		"/Users/elvinyung/Documents/other stuff/espresso/package.json",
+		"/Users/elvinyung/Documents/other stuff/espresso/espresso.sublime-project",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/controllers/admin/packages.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/libraries/MY_Form_validation.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/css/jquery.ui.base.css",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/config/config.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/language/english/eventmobi_lang.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/language/english(uk)/eventmobi_lang.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/language/german(formal)/eventmobi_lang.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/includes/footer_backend.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/language/french/eventmobi_lang.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/language/arabic/eventmobi_lang.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/language/danish/eventmobi_lang.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/language/dutch/eventmobi_lang.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/language/german/eventmobi_lang.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/language/italian/eventmobi_lang.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/language/japanese/eventmobi_lang.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/language/mandarin/eventmobi_lang.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/language/norwegian/eventmobi_lang.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/language/portuguese/eventmobi_lang.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/language/russian/eventmobi_lang.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/language/spanish/eventmobi_lang.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/language/turkish/eventmobi_lang.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/sessions_edit.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/controllers/sessions.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/js/fileuploader.js",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/js/em_upload.js",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/css/tagit_em_cms.css",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/js/tag-it.js",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/config/profiler.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/css/reports/ars/pdf_report.css",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/build/DEBIAN/postinst",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/css/jquery.ui.dialog.css",
+		"/Users/elvinyung/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/controllers/image.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/native.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/controllers/native.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/language/english(uk)/Find Results",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/models/nativeappurls_model.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/language/english/em_locale_lang.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/attendee_edit.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/customize_branding.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/customize_branding_reactor.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/customize_sections.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/exhibitors_edit.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/exhibitors_edit_reactor.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/import.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/import_mod.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/infobooth_add_page.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/infobooth_customize.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/models/event_tablemodel.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/infobooth_edit.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/item_config.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/maps_edit.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/resourcelist.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/speaker_edit.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/admin/organiser_edit.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/gallery/branding.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/includes/header_self_edit.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/ads_edit.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/libraries/utilities.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/event_show.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/logs/index.html",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/js/arsapp/app/templates/settings/settings.html",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/registration/customize_emails.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/controllers/registration.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/libraries/images.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/libraries/EM_V1_REST_Controller.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/controllers/admin/master_list.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/helpers/timezone_helper.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/controllers/alerts.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/alerts_crud.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/controllers/attendee.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/js/arsapp/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs/test/resources/ls/filename(with)[chars$]^that.must+be-escaped",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/libraries/Image_resize.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/js/angular.js",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/js/angular/emWidget.js",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/js/angular/widgetApp.js",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/views/dashboard_app.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/js/angular/reactor/app/scripts/modules/widgetsModule/WidgetTemplatesService.js",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/js/angular/reactor/app/scripts/modules/widgetsModule/WidgetProvider.js",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/js/angular/reactor/app/scripts/services/EventMobi.Service.js",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/js/angular/reactor/app/scripts/services/CustomTemplate.Service.js",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/js/angular/reactor/app/scripts/services/User.Service.js",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/js/angular/reactor/app/scripts/directives/emAdvertisementList.js",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/js/angular/reactor/app/scripts/services/socket/Socket.Service.js",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/js/angular/reactor/app/scripts/services/Ads.Service.js",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/js/angular/reactor/app/scripts/modules/widgetsModule/AssetService.js",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/js/angular/reactor/app/scripts/modules/widgetsModule/WidgetServices.js",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/js/angular/reactor/app/scripts/modules/widgetsModule/emWidgetDashboard.js",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/controllers/resourcelist.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/models/speakermodel.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/libraries/PeopleModel.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/ars_transfer.php",
+		"/Users/elvinyung/Sites/EventMobi/contentmanager/application/controllers/speakers.php",
+		"/Users/elvinyung/Documents/test.pdf",
+		"/Users/elvinyung/Documents/stuff/sample-ng-app/app/js/directives.js",
+		"/Users/elvinyung/Documents/stuff/sample-ng-app/app/partials/main.html",
+		"/Users/elvinyung/Documents/stuff/sample-ng-app/app/js/app.js",
+		"/Users/elvinyung/Documents/stuff/sample-ng-app/app/js/services.js",
+		"/Users/elvinyung/Documents/stuff/angular-js-tut-01/app.js",
+		"/Users/elvinyung/Documents/stuff/angular-js-tut-01/index.html",
+		"/Users/elvinyung/.zshrc",
+		"/Users/elvinyung/.zsh_profile",
+		"/Users/elvinyung/Documents/stuff/install_ruby.sh",
+		"/Users/elvinyung/Documents/stuff/eventmob_5flexdb_2014-07-29.sql",
+		"/Users/elvinyung/Documents/stuff/support-dashboard/update_widgets.py",
+		"/Users/elvinyung/Documents/stuff/support-dashboard/quick_run.py",
+		"/Users/elvinyung/Documents/stuff/ng-textadv/app/styles/main.scss",
+		"/Users/elvinyung/Documents/stuff/support-dashboard/simple_http_server.js",
+		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py",
+		"/Users/elvinyung/Documents/stuff/support-dashboard/simple_http_server.py",
+		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py",
+		"/Users/elvinyung/Documents/stuff/support-dashboard/integration_configuration.json",
+		"/Users/elvinyung/Documents/stuff/support-dashboard/action_execution_configuration.json",
+		"/Users/elvinyung/Documents/stuff/ng-textadv/app/scripts/controllers/game.js",
+		"/Users/elvinyung/Documents/stuff/integration_configuration.json",
+		"/Users/elvinyung/Documents/stuff/angular-seed/.gitignore",
+		"/Users/elvinyung/Documents/stuff/angular-seed/README.md",
+		"/Users/elvinyung/Documents/stuff/angular-seed/bower.json"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 404.0,
+		"where_history":
+		[
+			"",
+			"contentmanager/application/controllers/api",
+			"",
+			"/Users/elvinyung/Sites/EventMobi/contentmanager/application/language",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"crop",
+			"size",
+			"upload",
+			"event_configuration",
+			"configuration",
+			"config",
+			"log_message('error",
+			"log_message",
+			"log_message('error",
+			"config",
+			"log_message('error',",
+			"$config",
+			"log_message('error',",
+			"$config",
+			"log_message('error',",
+			"configuration",
+			"log_message('error',",
+			"_get_event_precedence_value_config",
+			"function get_boolean_config",
+			"get_boolean_config",
+			"package",
+			"form",
+			"native_a",
+			"configuration",
+			"user_profilesModel",
+			"load->model",
+			"configuration",
+			"is_native_app_enabled",
+			"native_app_enabled",
+			"native_app_enabled\nnative_app_enabledf",
+			"config",
+			"native",
+			"provide provi",
+			"package",
+			"create",
+			"update_push_confirmation",
+			"\\$lang\\['em_keywords_instruction'\\] = '(\\w*\\s*)(.+)';",
+			"\\$lang\\['em_keywords_instruction'\\] = '(\\w*\\s*)Provide keywords to help people find your app in the stores. To meet the requirements of all app stores for keywords, your keywords must meet the following criteria: ';\n",
+			"valid_app_name",
+			"\\$lang\\['(.+)'\\] = '(.+)'[^;]",
+			"$lang['(.+)'] = '(.+)'",
+			"$lang['(.+)'] = '(.+)'\\W",
+			"Keywords can only contain letters and numbers.",
+			"\\$",
+			"$",
+			".replace",
+			"\\$lang\\['em_keywords_instruction'\\] = '(\\w*\\s*)Provide keywords to help people find your app in the stores. To meet the requirements of all app stores for keywords, your keywords must meet the following criteria: ';\n",
+			"native_app_",
+			"\\$lang\\['em_5_keywords_maximum'\\] = '(\\w*\\s*)Maximum 5 keywords';\n\\$lang\\['em_30_characters_per_keyword_maximum'\\] = '(\\w*\\s*)Maximum 30 characters per keyword';\n\\$lang\\['em_2_spaces_per_keyword_maximum'\\] = '(\\w*\\s*)Maximum 2 spaces per keyword';\n\\$lang\\['em_100_characters_total_maximum'\\] = '(\\w*\\s*)Maximum 100 characters in total';\n\\$lang\\['em_invalid_keywords'\\] = '(\\w*\\s*)Keywords must not contain the following characters: (.+)';",
+			"\\$lang\\['em_5_keywords_maximum'\\] = '(\\w*\\s*)Maximum 5 keywords';\n\\$lang\\['em_30_characters_per_keyword_maximum'\\] = '(\\w*\\s*)Maximum 30 characters per keyword';\n\\$lang\\['em_2_spaces_per_keyword_maximum'\\] = '(\\w*\\s*)Maximum 2 spaces per keyword';\n\\$lang\\['em_100_characters_total_maximum'\\] = '(\\w*\\s*)Maximum 100 characters in total';\n\\$lang\\['em_invalid_keywords'\\] = '(\\w*\\s*)Keywords must not contain the following characters: \\< \\> \\, \\% \\[ \\] \\{ \\}';",
+			"\\$lang\\['em_5_keywords_maximum'\\] = '(\\w*\\s*)Maximum 5 keywords';\n\\$lang\\['em_30_characters_per_keyword_maximum'\\] = '(\\w*\\s*)Maximum 30 characters per keyword';\n\\$lang\\['em_2_spaces_per_keyword_maximum'\\] = '(\\w*\\s*)Maximum 2 spaces per keyword';\n\\$lang\\['em_100_characters_total_maximum'\\] = '(\\w*\\s*)Maximum 100 characters in total';\n\\$lang\\['em_invalid_keywords'\\] = '(\\w*\\s*)Keywords must not contain the following characters: < > , % [ ] { }';",
+			"notice_box",
+			"content",
+			"content_ri",
+			"alphanumeric",
+			"notice_b",
+			"\\$lang\\['em_native_app_keywords'\\] = '(\\w*\\s*)Keywords';",
+			"\\$lang\\['em_native_app_keywords'\\] = '(\\W*\\w*)Keywords';",
+			"\\$lang\\['em_native_app_keywords'\\] = 'Keywords';",
+			"maximum",
+			"withRightArrow",
+			"assignedtags",
+			"valid",
+			"beforeTagAdded",
+			"trigger",
+			"_trigger",
+			"delimiter",
+			"beforetagadded",
+			"ontagremoved",
+			"tagValidation",
+			"tagInput",
+			"tagit-new",
+			"taglimit",
+			"native_app_key",
+			"native_app",
+			"tagit-new",
+			".attr",
+			"margin",
+			"ui-state-default",
+			"input",
+			"-2",
+			"input",
+			"keywords",
+			"margin: -2",
+			"widget-content",
+			"-2",
+			"keywords",
+			"native_app",
+			"native_app_keywords",
+			"keywords",
+			"autocomplet",
+			"\\$lang\\['em_native_app_description'\\] = '(\\w*\\s*)Maximum of 50 Characters. Needed to submit to Google Play Store and Blackberry World.';",
+			"linked_speakers",
+			"$added_keywords",
+			"linked_speakers",
+			"keywords",
+			"linked_speakers",
+			"support_",
+			"\\$lang\\['em_maximum_of_50_characters'\\] = '(\\w*\\s*)Maximum of 50 Characters. Needed to submit to Google Play Store and Blackberry World.';",
+			"$lang['em_maximum_of_50_characters'] = 'Maximum of 50 Characters. Needed to submit to Google Play Store and Blackberry World.';",
+			"native_app",
+			"linked_speakers",
+			"link_speakers",
+			"_.",
+			"\\\\/",
+			"%",
+			"xhr.",
+			"xhr",
+			"onSubmit",
+			".replace",
+			"#",
+			"encode",
+			"crop",
+			"crop\\(",
+			"crop(",
+			"replace",
+			"\\$lang\\['em_details'\\] = '(\\w*\\W*)Details';\n\\$lang\\['em_native_app_description'\\] = 'pt Full Description';",
+			"$lang['em_details'] = '(\\w*\\W*)Details';\n$lang['em_native_app_description'] = 'pt Full Description';",
+			"full descti",
+			"\\$lang\\['em_native_app_description'\\] = '(\\w*\\W*)Description';",
+			"Maximum of 50 Characters",
+			"Maximum of 2000 Characters",
+			"em_short_description",
+			"\\$lang\\['em_description'\\] = '(\\w*\\W*)Description';\n\\$lang\\['em_maximum_of_2000_characters'\\] = '(\\w*\\W*)Maximum of 2000 Characters';\n\\$lang\\['em_short_description'\\] = '(\\w*\\W*)Short Description';\n\\$lang\\['em_maximum_of_50_characters'\\] = '(\\w*\\W*)Maximum of 50 Characters';",
+			"\\$lang\\['em_description'\\] = '(\\w*\\W*)Description';\n\\$lang\\['em_maximum_of_2000_characters'\\] = '(\\w*\\W*)Maximum of 2000 Characters';\n\\$lang\\['em_app_name'\\] = '(\\w*\\W*)App Name';",
+			"$lang\\['em_description'\\] = '(\\w*\\W*)Description';",
+			"$lang\\['em_description'\\] = '(\\w*\\W*)Description';\n$lang\\['em_maximum_of_2000_characters'\\] = '(\\w*\\W*)Maximum of 2000 Characters';\n$lang\\['em_app_name'\\] = '(\\w*\\W*)App Name';",
+			"$lang\\['em_description'\\] = '(\\w*\\W*)Description';"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$lang['em_keywords_instruction'] = '\\1Provide up to 5 keywords to help people find your app in the stores.';\n$lang['em_keywords_over_5'] = '\\1You have too many keywords.';\n$lang['em_keywords_too_many_characters'] = '\\1One of your keywords contains more than 30 characters.';\n$lang['em_keywords_too_many_spaces'] = '\\1One of your keywords contains more than 2 spaces.';\n$lang['em_keywords_invalid_chars'] = '\\1One of your keywords contains invalid characters.';",
+			"Keywords can only contain letters, numbers, and at most 2 spaces.",
+			"$lang['em_keywords_instruction_small'] = '\\1Keywords can only contain letters and numbers. Maximum 30 characters per keyword, and 100 characters overall';\n$lang['em_keywords_instruction'] = '\\1Provide up to 5 keywords to help people find your app in the stores.';",
+			"",
+			"$lang['em_native_app_keywords'] = '\\1Keywords';\n$lang['em_keywords_instruction'] = '\\1Provide keywords to help people find your app in the stores. To meet the requirements of all app stores for keywords, your keywords must meet the following criteria: ';\n$lang['em_5_keywords_maximum'] = '\\1Maximum 5 keywords';\n$lang['em_30_characters_per_keyword_maximum'] = '\\1Maximum 30 characters per keyword';\n$lang['em_2_spaces_per_keyword_maximum'] = '\\1Maximum 2 spaces per keyword';\n$lang['em_100_characters_total_maximum'] = '\\1Maximum 100 characters in total';\n$lang['em_invalid_keywords'] = '\\1Keywords must not contain the following characters: < > , % [ ] { }';",
+			"$lang['em_maximum_of_50_characters'] = '\\1Maximum of 50 Characters. Needed to submit to Google Play Store and Blackberry World.';",
+			"$lang['em_native_app_description'] = '\\1Maximum of 50 Characters. Needed to submit to Google Play Store and Blackberry World.';\n$lang['em_native_app_keywords'] = '\\1Keywords';",
+			"$lang['em_details'] = '\\1Details';\n$lang['em_native_app_description'] = '\\1Full Description';",
+			"$lang['em_native_app_description'] = 'pt Full Description';",
+			"Maximum of 50 Characters. Needed to submit to Google Play Store and Blackberry World.",
+			"$lang['em_native_app_description'] = '\\1Description';\n$lang['em_maximum_of_2000_characters'] = '\\1Maximum of 2000 Characters';\n$lang['em_native_app_short_description'] = '\\1Short Description';\n$lang['em_maximum_of_50_characters'] = '\\1Maximum of 50 Characters';",
+			"$lang['em_native_app_description'] = '\\1Description';\n$lang['em_maximum_of_2000_characters'] = '\\1Maximum of 2000 Characters';\n$lang['em_native_app_short_description'] = '\\1Short Description';\n$lang['em_maximum_of_50_characters'] = '\\1Maximum of 50 Characters';\n$lang['em_app_name'] = '\\1App Name';",
+			"\\$lang\\['em_native_app_description'\\] = '\\1Full Description';",
+			"\\$lang\\['em_native_app_short_description'\\] = '\\1Short Description';",
+			"\\$lang\\['em_native_app_description'\\] = '\\1Full Description';",
+			"$lang['em_description'] = '\\1Full Description';\n$lang['em_maximum_of_2000_characters'] = '\\2Maximum of 2000 Characters';",
+			"$lang['em_description'] = '\\1Full Description';",
+			"$lang['em_maximum_of_50_characters'] = '\\1Maximum of 50 Characters. Needed to submit to Google Play Store and Blackberry World.';",
+			"$lang['em_maximum_of_2000_characters'] = '\\1Maximum of 2000 Characters';",
+			"$lang['em_maximum_of_2000_characters'] = '\\1Maximum of 2000 Characters';\n$lang['em_short_description'] = '\\1Short Description';\n$lang['em_maximum_of_50_characters'] = '\\1Maximum of 50 Characters';",
+			"$lang['em_maximum_of_2000_characters'] = \\1Maximum of 2000 Characters';\n$lang['em_short_description'] = '\\1Short Description';\n$lang['em_maximum_of_50_characters'] = '\\1Maximum of 50 Characters';",
+			"<script type=\"text/javascript\" src=\"/js/unorm.js\"></script>\n<script type=\"text/javascript\" src=\"/js/unormdata.js\"></script>\n<script type=\"text/javascript\" src=\"/js/fileuploader.js\"></script>",
+			"error",
+			"filename",
+			"name",
+			"",
+			"\"",
+			"'",
+			"\n-H"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 160.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "opus.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"ars_transfer.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sites/EventMobi/sublimeprojects/mobileapp.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 192.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
