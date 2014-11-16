@@ -611,12 +611,13 @@
 
     <!-- Custom Theme JavaScript -->
     <script>
-        console.log("hello");
+        $( "#quiz" ).toggle( "slow" );           
         $( "#clickme" ).click(function() {
           //start assignment
           $( "#hideme" ).toggle( "slow" );
           $( ".panel" ).toggle( "slow" );
           var algebraRight = 0, geometryRight = 0, statisticsRight = 0, calculusRight = 0, algebraCount = 0, geometryCount = 0, statisticsCount = 0, calculusCount = 0;
+
           $.ajax({
             url: "http://localhost:9000/api/questions",
             cache: false,
