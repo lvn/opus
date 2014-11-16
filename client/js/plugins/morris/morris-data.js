@@ -1,6 +1,6 @@
 $(function() {
 
-    Morris.Area({
+     new Morris.Area({
         element: 'morris-area-chart',
         data: [{
             period: '2010',
@@ -72,22 +72,8 @@ $(function() {
         lineColors: ['#428bca','#5cb85c','#f0ad4e','#d9534f']
     });
 
-    Morris.Donut({
-        element: 'morris-donut-chart',
-        data: [{
-            label: "Download Sales",
-            value: 12
-        }, {
-            label: "In-Store Sales",
-            value: 30
-        }, {
-            label: "Mail-Order Sales",
-            value: 20
-        }],
-        resize: true
-    });
 
-    Morris.Bar({
+     new Morris.Bar({
         element: 'morris-bar-chart',
         data: [{
             y: '2006',
