@@ -393,15 +393,6 @@
                             <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info" style="margin-bottom:8px">
                         </div>
                     </form>
-
-                        <div class="col-lg-5 col-md-push-1">
-                                <div class="alert alert-success">
-                                    <strong><span class="glyphicon glyphicon-ok" id="correctMessage"></span> Correct!</strong>
-                                </div>
-                                <div class="alert alert-danger">
-                                    <span class="glyphicon glyphicon-remove" id="tryAgainMessage"></span><strong> Sorry! Try Again!</strong>
-                                </div>
-                        </div>
                 </div>
             </div>
         <!-- /#page-wrapper -->
@@ -531,11 +522,12 @@
 
     <!-- Custom Theme JavaScript -->
     <script>
-        $( "#quiz" ).toggle( "slow" );           
+        $( "#quiz" ).toggle( "slow" );    
         $( "#clickme" ).click(function() {
           //start assignment
           $( "#hideme" ).toggle( "slow" );
           $( ".panel" ).toggle( "slow" );
+          $( "#quiz" ).toggle( "slow" ) })/*
           $("#clickme").html('Quit Assignment');
           var algebraRight = 0, geometryRight = 0, statisticsRight = 0, calculusRight = 0, algebraCount = 0, geometryCount = 0, statisticsCount = 0, calculusCount = 0;
 
@@ -614,7 +606,7 @@
         //populate question
         function loadQuestion(question){
             $('#question').html($('#question').html() + question.text)
-        }
+        }*/
     </script>
 
 </body>
