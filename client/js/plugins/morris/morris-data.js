@@ -4,58 +4,68 @@ $(function() {
         element: 'morris-area-chart',
         data: [{
             period: '2010 Q1',
-            iphone: 2666,
-            ipad: null,
-            itouch: 2647
+            algebra: 2666,
+            geometry: null,
+            stat: 2647,
+            calculus: 2647
         }, {
             period: '2010 Q2',
-            iphone: 2778,
-            ipad: 2294,
-            itouch: 2441
+            algebra: 2778,
+            geometry: 2294,
+            stat: 2441,
+            calculus: 2647
         }, {
             period: '2010 Q3',
-            iphone: 4912,
-            ipad: 1969,
-            itouch: 2501
+            algebra: 4912,
+            geometry: 1969,
+            stat: 2501,
+            calculus: 2647
         }, {
             period: '2010 Q4',
-            iphone: 3767,
-            ipad: 3597,
-            itouch: 5689
+            algebra: 3767,
+            geometry: 3597,
+            stat: 5689,
+            calculus: 2647
         }, {
             period: '2011 Q1',
-            iphone: 6810,
-            ipad: 1914,
-            itouch: 2293
+            algebra: 6810,
+            geometry: 1914,
+            stat: 2293,
+            calculus: 2647
         }, {
             period: '2011 Q2',
-            iphone: 5670,
-            ipad: 4293,
-            itouch: 1881
+            algebra: 5670,
+            geometry: 4293,
+            stat: 1881,
+            calculus: 2647
         }, {
             period: '2011 Q3',
-            iphone: 4820,
-            ipad: 3795,
-            itouch: 1588
+            algebra: 4820,
+            geometry: 3795,
+            stat: 1588,
+            calculus: 2647
         }, {
             period: '2011 Q4',
-            iphone: 15073,
-            ipad: 5967,
-            itouch: 5175
+            algebra: 15073,
+            geometry: 5967,
+            stat: 5175,
+            calculus: 2647
         }, {
             period: '2012 Q1',
-            iphone: 10687,
-            ipad: 4460,
-            itouch: 2028
+            algebra: 10687,
+            geometry: 4460,
+            stat: 2028,
+            calculus: 2647
         }, {
             period: '2012 Q2',
-            iphone: 8432,
-            ipad: 5713,
-            itouch: 1791
+            algebra: 8432,
+            geometry: 5713,
+            stat: 1791,
+            calculus: 2647
         }],
         xkey: 'period',
-        ykeys: ['iphone', 'ipad', 'itouch'],
-        labels: ['iPhone', 'iPad', 'iPod Touch'],
+        ykeys: ['algebra', 'geometry', 'stat', 'calculus'],
+        labels: ['algebra', 'geometry', 'stat', 'calculus' ],
         pointSize: 2,
         hideHover: 'auto',
         resize: true
