@@ -68,7 +68,8 @@ $(function() {
         labels: ['algebra', 'geometry', 'stat', 'calculus' ],
         pointSize: 2,
         hideHover: 'auto',
-        resize: true
+        resize: true,
+        lineColors: ['#428bca','#5cb85c','#f0ad4e','#d9534f']
     });
 
     Morris.Donut({
