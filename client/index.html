@@ -602,10 +602,11 @@
 
     <!-- Custom Theme JavaScript -->
     <script>
-        console.log("hello");
+        $( "#quiz" ).toggle( "slow" );           
         $( "#clickme" ).click(function() {
           $( "#hideme" ).toggle( "slow" );
           $( ".panel" ).toggle( "slow" );
+          $( "#quiz" ).toggle( "slow" );
           $.ajax({
             url: "http://localhost:9000/api/questions",
             cache: false,
