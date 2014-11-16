@@ -3,61 +3,61 @@ $(function() {
     Morris.Area({
         element: 'morris-area-chart',
         data: [{
-            period: '2010 Q1',
+            period: '2010',
             algebra: 2666,
             geometry: null,
             stat: 2647,
             calculus: 2647
         }, {
-            period: '2010 Q2',
+            period: '2011',
             algebra: 2778,
             geometry: 2294,
             stat: 2441,
             calculus: 2647
         }, {
-            period: '2010 Q3',
+            period: '2012',
             algebra: 4912,
             geometry: 1969,
             stat: 2501,
             calculus: 2647
         }, {
-            period: '2010 Q4',
+            period: '2013',
             algebra: 3767,
             geometry: 3597,
             stat: 5689,
             calculus: 2647
         }, {
-            period: '2011 Q1',
+            period: '2014',
             algebra: 6810,
             geometry: 1914,
             stat: 2293,
             calculus: 2647
         }, {
-            period: '2011 Q2',
+            period: '2015',
             algebra: 5670,
             geometry: 4293,
             stat: 1881,
             calculus: 2647
         }, {
-            period: '2011 Q3',
+            period: '2016',
             algebra: 4820,
             geometry: 3795,
             stat: 1588,
             calculus: 2647
         }, {
-            period: '2011 Q4',
+            period: '2017',
             algebra: 15073,
             geometry: 5967,
             stat: 5175,
             calculus: 2647
         }, {
-            period: '2012 Q1',
+            period: '2018',
             algebra: 10687,
             geometry: 4460,
             stat: 2028,
             calculus: 2647
         }, {
-            period: '2012 Q2',
+            period: '2019',
             algebra: 8432,
             geometry: 5713,
             stat: 1791,
