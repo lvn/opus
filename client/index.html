@@ -624,6 +624,27 @@
             success: function(data) {
                 //loop through data, populate question
                 for (var i = 0; i < data.length; i++){
+                    //gate questions by category
+                    if (data[i].category == "algebra" && algebraRight == 3){
+                        //they mastered algebra, show next category
+                        continue;
+                    } else if (data[i].category == "geometry" && geometryRight == 3){
+                        continue;
+                    } else if (data[i].category == "statistics" && statisticsRight == 3){
+                        continue;
+                    } else if (data[i].category == "calculus" && calculusRight == 3){
+                        //kid schooled each category; end quiz
+                        //update scores on dashboard
+                        $(".algebraScore").html(ceil(algebraRight/algebraCount);
+                        $(".geometryScore").html(ceil(geometryRight/geometryCount);
+                        $(".statisticsScore").html(ceil(statisticsRight/statisticsCount);
+                        $(".calculusScore").html(ceil(calculusRight/calculusCount);
+                        $( "#hideme" ).toggle( "slow" );
+                        $( ".panel" ).toggle( "slow" );
+                        break;
+                    }
+
+
                     //show question
                     loadQuestion(data[i]);
                     //wait for them to submit
@@ -649,14 +670,14 @@
                             }else
                                 calculusCount++;
 
-                        //check if test is complete
-                        if(algebraRight < 5 && geometryRight < 5 && statisticsRight < 5 && calculusRight < 5 || (algebraCount + geometryCount statisticsCount + calculusCount) < 50){
+                        //check if they got too many questions wrong
+                        if(algebraCount + geometryCount + statisticsCount + calculusCount < 20){
                             
                             //update scores on dashboard
-                            $(".algebraScore").html(ceil(algebraRight/algebraScore);
-                            $(".geometryScore").html(ceil(geometryRight/geometryScore);
-                            $(".statisticsScore").html(ceil(statisticsRight/statisticsScore);
-                            $(".calculusScore").html(ceil(calculusRight/calculusScore);
+                            $(".algebraScore").html(ceil(algebraRight/algebraCount);
+                            $(".geometryScore").html(ceil(geometryRight/geometryCount);
+                            $(".statisticsScore").html(ceil(statisticsRight/statisticsCount);
+                            $(".calculusScore").html(ceil(calculusRight/calculusCount);
                             $( "#hideme" ).toggle( "slow" );
                             $( ".panel" ).toggle( "slow" );
                             
