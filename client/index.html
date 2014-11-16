@@ -457,7 +457,7 @@
                     <form role="form">
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <label id="FirstQuestion" for="InputMessage">Question 1: </label>
+                                <label id="question" for="InputMessage">Question 1: </label>
                                 <div class="input-group">
                                     <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
                                     <span class="input-group-addon"><span></span></span>
@@ -469,10 +469,10 @@
 
                         <div class="col-lg-5 col-md-push-1">
                                 <div class="alert alert-success">
-                                    <strong><span class="glyphicon glyphicon-ok"></span> Correct!</strong>
+                                    <strong><span class="glyphicon glyphicon-ok" id="correctMessage"></span> Correct!</strong>
                                 </div>
                                 <div class="alert alert-danger">
-                                    <span class="glyphicon glyphicon-remove"></span><strong> Sorry! Try Again!</strong>
+                                    <span class="glyphicon glyphicon-remove" id="tryAgainMessage"></span><strong> Sorry! Try Again!</strong>
                                 </div>
                         </div>
                 </div>
@@ -613,17 +613,64 @@
     <script>
         console.log("hello");
         $( "#clickme" ).click(function() {
+          //start assignment
           $( "#hideme" ).toggle( "slow" );
           $( ".panel" ).toggle( "slow" );
+          var algebraRight = 0, geometryRight = 0, statisticsRight = 0, calculusRight = 0, algebraCount = 0, geometryCount = 0, statisticsCount = 0, calculusCount = 0;
           $.ajax({
             url: "http://localhost:9000/api/questions",
             cache: false,
             success: function(data) {
-              $('#FirstQuestion').html($('#FirstQuestion').html() + data[0].text)
+                //loop through data, populate question
+                for (var i = 0; i < data.length; i++){
+                    //show question
+                    loadQuestion(data[i]);
+                    //wait for them to submit
+                    $( "#submit" ).click(function() {
+                        //check answer, update category score
+                        if ($("#InputMessage").html() == data[i].answer){
+                            if (data[i].category == "algebra"){
+                                algebraRight++;
+                            }else if (data[i].category == "geometry"){
+                                geometryRight++;
+                            }else if (data[i].category == "statistics"){
+                                statisticsRight++;
+                            }else
+                                calculusRight++;
+                        }
+                        //update question attempts
+                        if (data[i].category == "algebra"){
+                                algebraCount++;
+                            }else if (data[i].category == "geometry"){
+                                geometryCount++;
+                            }else if (data[i].category == "statistics"){
+                                statisticsCount++;
+                            }else
+                                calculusCount++;
+
+                        //check if test is complete
+                        if(algebraRight < 5 && geometryRight < 5 && statisticsRight < 5 && calculusRight < 5 || (algebraCount + geometryCount statisticsCount + calculusCount) < 50){
+                            
+                            //update scores on dashboard
+                            $(".algebraScore").html(ceil(algebraRight/algebraScore);
+                            $(".geometryScore").html(ceil(geometryRight/geometryScore);
+                            $(".statisticsScore").html(ceil(statisticsRight/statisticsScore);
+                            $(".calculusScore").html(ceil(calculusRight/calculusScore);
+                            $( "#hideme" ).toggle( "slow" );
+                            $( ".panel" ).toggle( "slow" );
+                            
+                            break;
+                        }
+                    }
+                }
             }
           })
+          //populate scores
         });
-
+        //populate question
+        function loadQuestion(question){
+            $('#question').html($('#question').html() + question.text)
+        }
     </script>
 
 </body>
